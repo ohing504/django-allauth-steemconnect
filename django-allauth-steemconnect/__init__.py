@@ -1,0 +1,1 @@
+name = "steemconnect_provider"
