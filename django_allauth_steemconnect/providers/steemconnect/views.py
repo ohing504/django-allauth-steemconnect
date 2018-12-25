@@ -7,7 +7,7 @@ from allauth.socialaccount.providers.oauth2.views import (
     OAuth2LoginView,
 )
 
-from steemconnect_provider.providers.steemconnect.provider import SteemConnectProvider
+from django_allauth_steemconnect.providers.steemconnect.provider import SteemConnectProvider
 
 
 class SteemConnectOAuth2Adapter(OAuth2Adapter):

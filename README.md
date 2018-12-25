@@ -10,7 +10,7 @@ pip install django-allauth-steemconnect
 
 ## Quick start
 
-1. Add "django-allauth-steemconnect" to your INSTALLED_APPS setting like this::
+1. Add "django_allauth_steemconnect" to your INSTALLED_APPS setting like this::
 
 ```python
     INSTALLED_APPS = [
@@ -18,7 +18,7 @@ pip install django-allauth-steemconnect
         'allauth',
         'allauth.account',
         'allauth.socialaccount',
-        'steemconnect_provider.providers.steemconnect',
+        'django_allauth_steemconnect.providers.steemconnect',
     ]
 ```
 
